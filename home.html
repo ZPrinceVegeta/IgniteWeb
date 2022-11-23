@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Homet</title>
+    <style>
+        *{
+            margin: 0px;
+            padding: 0px;
+        }
+        body{
+            margin:30px 150px;
+        }
+        .top{
+            
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+            /* padding:13px 10px; */
+            align-items: center;
+            height: 150px;
+            /* background-color: aqua; */
+        }
+        .top img{
+            margin-top: 30px;
+            margin-bottom: 30px;
+           
+            height: 70px;
+        }
+        .search{
+            /* background-color: blue; */
+            width: 500px;
+            height: 100px;
+            display:flex;
+            justify-content: flex-end;
+            align-items: center;
+            margin-right: -4px;
+        }
+        
+        .search input{
+            width: 220px;
+            
+            font-size: medium;
+            padding:13px 10px;
+            color: rgb(22, 21, 21);
+            margin: 0px;
+
+        }
+        .search button{
+            padding:16px 25px;
+            border: none;
+            background-color: rgb(30, 25, 25);
+            margin: 0px;
+            color: white;
+            cursor: pointer;
+            transition: all 0.5s;
+            /* margin-right: -4px; */
+            margin-left: -4px;
+        }
+        .search>button:hover{
+            background-color: orange;
+            
+        }
+        nav{
+            
+          
+        }
+        nav ul{
+            display: flex;            
+            background-color: rgb(30,25,25);
+           
+            color: white;
+            list-style-type: none;
+
+        }
+        ul li{
+            background-color: rgb(30, 25, 25);
+            text-align: center;
+            padding: 20px 30px;
+            border:0px 4px 0px 0px;
+            border-right-color:rgb(117, 114, 114);
+            transition: all 0.5s;
+            cursor: pointer;
+            
+        }
+        ul>li:hover{
+            background-color: orange;
+        }
+        .intro{
+           
+            background:url('bgimg.jpg');
+            width:100%;
+            height:400px;
+
+            
+        }
+    </style>
+</head>
+<body>
+    <div class="top">
+        <img src="logo.png">
+        <div class="search">
+            <input type="text" value="Enter text here">
+            <button>SEARCH</button>
+        </div>
+    </div>
+    <nav>
+            <ul>
+                <li>HOME</li>
+                
+                
+                <li>ABOUT</li>
+                <li>CONTACTS</li>
+            </ul>
+    </nav>
+    <div class="intro">
+        
+        
+    </div>
+</body>
+</html>

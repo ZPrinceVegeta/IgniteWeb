@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home1</title>
+    <style>
+        *{
+            margin:0px;
+            padding:0px;
+        }
+        body{
+            margin:40px 120px 0px 120px;
+            display: flex;
+            flex-direction: column;
+        }
+        .headersub{
+            display: flex;
+            justify-content: space-between;
+            flex-wrap: wrap;
+            /* background-color: aquamarine; */
+            align-items: center;
+        }
+        .headersub img{
+            width: 200px;
+            height: 100%;
+            margin: 6px 0px;
+        }
+        .search{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-wrap: nowrap;
+            
+        }
+        .search input{
+            padding:10px 50px 10px 10px;
+            font-size: medium;
+            color: rgb(56, 53, 53);
+        }
+        .search button{
+            padding:10px 20px;
+            margin-left: -4px;
+            background-color: rgb(40, 32, 32);
+            color: white;
+            transition: all 0.3s;
+            cursor: pointer;
+        }
+        .search button:hover{
+            background-color: orange;
+
+        }
+        .header ul{
+            display: flex;
+            list-style-type: none;
+            flex-direction: row;
+            color: white;
+            background-color: rgb(40, 32, 32);
+            
+        }
+        .header ul li{
+            padding: 15px 30px;
+            align-items: center;
+            justify-content: center;
+            transition: all 0.3s;
+            cursor: pointer;
+        }
+        .header ul li:hover{
+            background-color: orange;
+        }
+        .intro{
+            background: url("bgimg.jpg");
+            width: 100%;
+            height:450px;
+        }
+        .animation{
+            position: absolute;
+            top:50%;
+            left: 50%;
+            transform:translate(-50%,-50%)
+        }
+        .information{
+            display: flex;
+            margin-top:50px;
+            /* justify-content:space-between; */
+            margin: 10px;
+            flex-direction: row;
+        }
+        .info1{
+            /* background-color:aqua ; */
+            margin: 15px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            text-align: center;
+            
+
+          
+        }
+        .info1 img{
+            width:80px;
+            /* justify-content: center;
+            align-items: center; */
+        }
+        .info2{
+            /* background-color:aqua ; */
+            margin: 15px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            text-align: center;
+        }
+        .info2 img{
+            width:55px;
+        }   
+        .info3{
+            margin: 15px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            text-align: center;
+        }
+        .info3 img{
+            width:90px;
+        }
+        .info4{
+            margin: 15px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            text-align: center;
+        }
+        .info4 img{
+            width:92px;
+        }
+        .information h1{
+            color: rgb(4, 4, 4);
+            font-family: sans-serif;
+            font-size: 25px;
+            margin-top: 50px;
+        }
+        .info3 h1{
+            margin-top:36px;
+        }
+        .information p{
+            margin: 25px 25px 0px 25px;
+            font-size: 18px;
+        }
+        .info3 p{
+            margin:12px;
+        }
+
+    </style>
+</head>
+<body>
+    <div class="header">
+        <div class="headersub">
+                <img src="logo.png">
+                <div class="search">
+                    <input placeholder="Enter text here" >
+                    <button>CLICK HERE</button>
+                </div>
+        </div>
+        <ul>
+            <li>Home</li>
+            <li>About</li>
+            <li>Contacts</li>
+        </ul>
+    </div>
+    <div class="content">
+        <div class="intro">
+            <h1 class="animation">Hello ignite</h1>
+
+        </div>
+        <div class="information">
+            <div class="info1">
+                <img src="box1.png">
+                <h1>TRAIN WITH PROFESSIONALS</h1>
+                <br>
+                <p>The ignIT faculty includes professionals working in the field of application development. This helps
+                    in bringing real life situations into the curriculum.</p>
+            </div>
+            <div class="info2">
+                <img src="box2.png">
+                <h1>AUTHOR AN APP OF YOUR OWN</h1>
+                <br>
+                <P>By the end of the course, students are reqired to develope and publish a running application on the
+                    Google Play Store with guidance from the mentors. The app goes into the students</P>
+            </div>
+            <div class="info3">
+                <img src="box3.png">
+                <h1>WORK ON COMMISIONED PRODUCTS</h1>
+                <br>
+                <p>Students get to work on actual commissioned projects. This gives them the chance to experience actua
+                    l case scenarios and not just textbook</p>
+            </div>
+            <div class="info4">
+                <img src="box4.png">
+                <h1>CONTEMPLORY SYLLABUS</h1>
+                <br>
+                <p>Our syllabus is modified regularly according to changing trends in technology. Thus students are alw
+                    ays in sync.</p>
+                
+            </div>
+        </div>
+
+
+    </div>
+    <div class="footer">
+
+    </div>
+</body>
+</html>
